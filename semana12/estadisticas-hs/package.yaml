@@ -1,0 +1,4 @@
+library:
+  source-dirs: src
+  exposed-modules:
+    - Estadisticas
