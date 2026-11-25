@@ -1,0 +1,24 @@
+name: persistencia-hs
+version: 0.1.0.0
+
+library:
+  source-dirs: src
+  dependencies:
+    - base >= 4.7 && < 5
+    - directory
+
+executables:
+  persistencia-hs-exe:
+    main: Main.hs
+    source-dirs: app
+    dependencies:
+      - base
+      - persistencia-hs
+
+tests:
+  persistencia-hs-test:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+      - base
+      - persistencia-hs
