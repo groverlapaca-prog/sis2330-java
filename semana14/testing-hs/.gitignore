@@ -1,0 +1,6 @@
+.stack-work/
+.stack-work/
+*.hi
+*.o
+dist/
+dist-newstyle/
